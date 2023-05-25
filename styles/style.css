@@ -7,6 +7,63 @@ body{
     background-color: #F3F1FF;
 }
 
+/* navigation */
+
+nav{
+    display: flex;
+    background-color: #562EFF;
+    justify-content: space-between;
+    height: 94px;
+    
+}
+
+
+
+
+nav .right-side a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+   
+}
+
+nav .left a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    
+    
+   
+}
+
+ .right-side{
+ 
+  margin-top: 30px;
+  /* margin-right:220px; */
+    margin-left: 350px;
+}
+
+.left{
+    margin-top: 30px;
+    /* margin-right:220px; */
+    margin-left: 200px;
+}
+.imge img{
+    height: 51px;
+    width: 51px;
+
+}
+
+.imge{
+    margin-top: 20px;
+    margin-right: 250px; 
+}
+
 main{
     display:flex;
     flex-direction: column;
